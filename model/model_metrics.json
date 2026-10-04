@@ -1,0 +1,33 @@
+{
+    "features": [
+        "season",
+        "yr",
+        "mnth",
+        "hr",
+        "holiday",
+        "weekday",
+        "workingday",
+        "weathersit",
+        "temp",
+        "atemp",
+        "hum",
+        "windspeed"
+    ],
+    "metrics": {
+        "Linear Regression": {
+            "MAE": 105.58,
+            "MSE": 20590.23,
+            "RMSE": 143.49,
+            "R2": 0.3951
+        },
+        "Random Forest Regressor": {
+            "MAE": 35.69,
+            "MSE": 3127.96,
+            "RMSE": 55.93,
+            "R2": 0.9081
+        }
+    },
+    "best_model": "Random Forest Regressor",
+    "train_samples": 13903,
+    "test_samples": 3476
+}
